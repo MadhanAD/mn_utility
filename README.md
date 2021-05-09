@@ -1,14 +1,22 @@
 # mn_utility
 
-A new Flutter package project.
+This library contains utility functions for dart lanugage.
 
-## Getting Started
+Will add as more as possible
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+## Example
+```dart
+  String mailId = "mail@gmail.com";
+  if(mailId.isValidEmail()) {
+      // handle valid email flow
+  } else {
+      // handle invalid email flow
+  }
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+  String mobileNumber = "9807865432";
+  if(mobileNumber.isValidMobileNumber()) {
+      // handle valid mobile number flow
+  } else {
+      // handle invalid mobile number flow
+  }
+```
