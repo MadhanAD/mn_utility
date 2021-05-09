@@ -1,11 +1,10 @@
 name: mn_utility
-description: Library for dart utility from Madhan
+description: This library contains utility functions for dart lanugage. The we will be w=useful at the time of form validation.
 version: 0.0.1
-author: Madhan
 homepage: https://github.com/MadhanAD/mn_utility.git
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
