@@ -6,15 +6,23 @@ void main() {
     var validEmail = "mail@gmail.com";
     var firstInValidEmail = "mailgmail.com";
     var secondInValidEmail = "mail@gmailcom";
+    String nullEmail = null;
+    String emptyEmail = "";
     expect(validEmail.isValidEmail(), true);
     expect(firstInValidEmail.isValidEmail(), false);
     expect(secondInValidEmail.isValidEmail(), false);
+    expect(nullEmail.isValidEmail(), false);
+    expect(emptyEmail.isValidEmail(), false);
   });
 
   test('mobile number validation', () {
     var validMobileNumber = "1234567890";
     var invalidMobileNumber = "123456789o";
+    String nullMobileNumber = null;
+    String emptyMobileNumber = "";
     expect(validMobileNumber.isValidMobileNumber(), true);
     expect(invalidMobileNumber.isValidMobileNumber(), false);
+    expect(nullMobileNumber.isValidMobileNumber(), false);
+    expect(emptyMobileNumber.isValidMobileNumber(), false);
   });
 }
